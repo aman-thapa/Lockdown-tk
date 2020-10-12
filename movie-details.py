@@ -16,15 +16,16 @@ def detail(movie_name):
 
             print('Movie Info: ')
             print(f"{title} - {year}")
-            print(f"rating: {rating}")
+            print(f"IMDb Rating: {rating}")
             director = ",".join(map(str, directors))
-            print(f"directors: {director}")
+            print(f"Directors: {director}")
             actors = ",".join(map(str, casting[0:5]))
-            print(f"actors: {actors}")
+            print(f"Actors: {actors}")
 
     except Exception as error:
-        print(error, type(error))
+        print("No such movie Found!!!")
 
 
 movie_name = input("Enter Movie Name: ")
+print("Gathering Info. Please Wait...")
 detail(movie_name)
