@@ -1,5 +1,7 @@
 # Programs
-* 1. Feet to Meter height converter.(`ht2mt.py`)
+* 1. Feet to Meter height converter.(***ht2mt.py***)
+* 2. Movie Details Finder.(***movies-details.py***)
+     `pip install IMDbPY`
 
 ---
 ### Modules Used
