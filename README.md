@@ -4,7 +4,7 @@
      `pip install IMDbPY`
 
 ---
-### Modules Used
+### Toolkit
 tkinter
 
 ---
